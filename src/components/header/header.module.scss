@@ -1,0 +1,45 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+  .logo {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #dcdcdc;
+  }
+  .options {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+    span {
+      height: 77px;
+      display: flex;
+      font-size: 16px;
+      font-weight: 400;
+      border-bottom: 3.5px solid #fff;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    span:hover {
+      border-bottom: 3.5px solid rgb(105, 190, 40);
+    }
+    .search {
+      border-left: 1px solid #dcdcdc;
+      padding: 0 26px;
+    }
+  }
+  .headerContent {
+    position: absolute;
+    background-color: #fff;
+    transition: height 0.3s ease-in-out;
+    top: 81px;
+    z-index: 9999;
+    width: 100%;
+  }
+}

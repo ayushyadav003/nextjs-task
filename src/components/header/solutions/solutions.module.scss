@@ -1,0 +1,82 @@
+.solutionsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 100px;
+  background-color: #fff;
+  height: 100vh;
+  .inner {
+    padding-top: 100px;
+    h2 {
+      color: #69be28;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 0 0 45px 0;
+    }
+    p {
+      font-size: 24px;
+      margin: 0 0 52px 0;
+      width: 50%;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #69be28;
+    }
+    .solutionCards {
+      margin: 90px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      //   width: 50%;
+      div {
+        padding: 24px 30px;
+        border-radius: 8px;
+        width: 40%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        span {
+        }
+        h3 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 18px;
+          margin-top: 1rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  .inner2 {
+    position: relative;
+    div {
+      position: absolute;
+      bottom: 0;
+      padding: 2rem;
+      height: 57%;
+      border-radius: 0 50px 0 0;
+      background: brown;
+      color: #fff;
+      h3 {
+        margin: 0 0 20px 0;
+        font-size: 24px;
+        font-weight: 400;
+      }
+      p {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+      }
+      button {
+        all: unset;
+        margin: 70px 0 0 0;
+        background-color: #69be28;
+        border-radius: 8px;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        color: #000;
+        gap: 1rem;
+      }
+    }
+  }
+}
