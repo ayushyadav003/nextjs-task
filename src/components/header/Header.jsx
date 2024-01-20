@@ -23,7 +23,7 @@ export default function Header() {
     <div className={styles.headerContainer}>
       <div className={styles.options}>
         <div className={styles.logo}>
-          <img src="/images/header/logo.svg" alt="Logo" />
+          <img src="/images/header/Logo.svg" alt="Logo" />
         </div>
         {initialOptions.map((option, i) => (
           <span
